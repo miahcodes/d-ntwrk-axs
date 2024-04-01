@@ -1,0 +1,10 @@
+query RunInput {
+  fetchResult {
+    status
+    headers {
+      name
+      value
+    }
+    body
+  }
+}
